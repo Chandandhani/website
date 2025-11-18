@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paradise Hotel</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
+        <h1 class="logo">Paradise Hotel</h1>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h2>Experience Luxury & Comfort</h2>
+        <p>Your perfect vacation destination awaits.</p>
+        <a href="#rooms" class="btn">Book Now</a>
+    </div>
+</section>
+
+<!-- ROOMS -->
+<section id="rooms" class="rooms">
+    <h2 class="section-title">Our Rooms</h2>
+    <div class="room-container">
+
+        <div class="room-card">
+            <img src="https://source.unsplash.com/600x400/?hotel-room" alt="Room">
+            <h3>Deluxe Room</h3>
+            <p>Enjoy stunning views and premium comfort.</p>
+            <button class="btn">View Details</button>
+        </div>
+
+        <div class="room-card">
+            <img src="https://source.unsplash.com/600x401/?luxury-room" alt="Room">
+            <h3>Luxury Suite</h3>
+            <p>Experience unmatched luxury and elegance.</p>
+            <button class="btn">View Details</button>
+        </div>
+
+        <div class="room-card">
+            <img src="https://source.unsplash.com/600x402/?resort-room" alt="Room">
+            <h3>Family Room</h3>
+            <p>Spacious rooms perfect for your family stay.</p>
+            <button class="btn">View Details</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+    <h2 class="section-title">Our Services</h2>
+    <div class="service-container">
+
+        <div class="service-box">
+            <img src="https://source.unsplash.com/100x100/?spa" alt="">
+            <h3>Spa & Wellness</h3>
+            <p>Relax with world-class treatments and massages.</p>
+        </div>
+
+        <div class="service-box">
+            <img src="https://source.unsplash.com/100x100/?breakfast" alt="">
+            <h3>Free Breakfast</h3>
+            <p>Enjoy delicious breakfast every morning.</p>
+        </div>
+
+        <div class="service-box">
+            <img src="https://source.unsplash.com/100x100/?swimming-pool" alt="">
+            <h3>Swimming Pool</h3>
+            <p>Dive into our refreshing outdoor pool.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="gallery">
+    <h2 class="section-title">Gallery</h2>
+    <div class="gallery-container">
+        <img src="https://source.unsplash.com/500x300/?hotel" alt="">
+        <img src="https://source.unsplash.com/501x300/?resort" alt="">
+        <img src="https://source.unsplash.com/502x300/?beach-hotel" alt="">
+        <img src="https://source.unsplash.com/503x300/?hotel-lobby" alt="">
+        <img src="https://source.unsplash.com/504x300/?hotel-pool" alt="">
+        <img src="https://source.unsplash.com/505x300/?restaurant" alt="">
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea rows="4" placeholder="Message"></textarea>
+        <button class="btn">Send Message</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 Paradise Hotel. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
